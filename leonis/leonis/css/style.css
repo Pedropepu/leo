@@ -1,0 +1,191 @@
+body {
+    background-image: url(../imagens/Fundo-1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+div#conteudo{
+    height: 100vw;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    /*background-color: rgba(43, 43, 43, 0.5);*/
+    z-index: 0;
+    border: 3px dashed #ffffff;
+    border-radius: 20px;
+
+}
+div#imagens{
+    max-width: 800px;
+    min-width: 320px;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+div#imagens img#img{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    border: 3px dashed #ffffff;
+
+}
+
+
+nav#menu{
+    list-style: none;
+    position: absolute;
+    text-transform: uppercase;
+    width: 70vw;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+    border-radius: 10px;
+
+
+}
+
+nav#menu ul{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+nav#menu li{
+    display: inline;
+    background-color: grey;
+    padding: 10px;
+    top:10px;
+    margin: auto;
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+td{
+    border: 1px solid white;
+}
+
+table{
+    border: 1px solid white;
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+    padding-top: 5px;
+
+}
+
+aside#rodape{
+    position: fixed;
+    top: 0px;
+    right: 25px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    min-height: 100vh;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+img#ins{
+    height: 50px;
+    right: 20px;
+}
+
+aside#cop{
+    position: fixed;
+    top: 80px;
+    right: 25px;
+    width: 60px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    color: #ffffff;
+    min-height: 100vh;
+    font-size: 8pt;
+    
+}
+tr{
+    border:2px solid white;
+}
+table#atri{
+    border: 0px;
+    color: #ffffff;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+}
+
+div#conteudo table#vida{
+    border: 0px;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 55px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+table#peri{
+    border: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 65px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    color: #ffffff;
+}
+
+footer#rodape{
+    color: #ffffff;
+    text-align: center;
+}
+
+table#habi{
+    min-width: 200px;
+    max-width: 780px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 70px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    color: white;
+}

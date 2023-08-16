@@ -1,0 +1,59 @@
+@media(max-width: 1280px){
+    body{
+        padding: 0 40px;
+    }
+
+    div#conteudo{
+        height: 200vw;
+    }
+
+    nav#menu{
+        width: 127vh;
+    }
+
+    nav#menu li{
+        padding: 7px;
+        font-size: 10pt;
+        
+    }
+
+    nav#menu ul{
+        padding: 7px;
+    }
+}
+
+@media(max-width: 768px){
+    div#conteudo{
+        height: 250vw;
+    }
+    nav#menu{
+        width: 90vh;
+    }
+
+    nav#menu li{
+        padding: 5px;
+        font-size: 7pt;
+    }
+
+    nav#menu ul{
+        padding: 5px;
+    }
+}
+
+@media(max-width: 500px){
+    nav#menu{
+        width: 80vh;
+        margin: auto;
+    }
+    nav#menu li{
+        margin: auto;
+        padding: 2px;
+        font-size: 7pt;
+        
+    }
+
+    nav#menu ul{
+        margin: auto;
+        padding: 2px;
+    }
+}
